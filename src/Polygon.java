@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by Niklas on 2016-01-19.
+ * Created by Niklas on 1924-01-19.
  */
 public abstract class Polygon extends JComponent{
     Point centerPoint;
