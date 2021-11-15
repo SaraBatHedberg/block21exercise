@@ -18,4 +18,12 @@ public class Square extends Polygon {
         return "Square{}";
     }
 
+    @Override
+    public void overlaps(Polygon s){
+        String tyype = this.toString();
+        String other = s.toString();
+        Polygon.overlapsHelper( "Square",tyype , other);
+    }
+
+
 }

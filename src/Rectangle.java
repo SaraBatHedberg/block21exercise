@@ -17,4 +17,11 @@ public class Rectangle extends Polygon {
         return "Rectangle{}";
     }
 
+     @Override
+    public void overlaps(Polygon r){
+        String tyype = this.toString();
+        String other = r.toString();
+        Polygon.overlapsHelper( "Rectangle",tyype , other);
+    }
+
 }
