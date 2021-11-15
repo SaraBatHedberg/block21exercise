@@ -21,4 +21,12 @@ public class Triangle extends Polygon {
         return "Triangle{}";
     }
 
+     @Override
+    public void overlaps(Polygon t) {
+        Polygon.overlapsHelper("Triangle", this.toString(), t.toString());
+    }
+    boolean overlaps (Triangle t){
+        System.out.println("We do not know");
+        return true;
+    }
 }
